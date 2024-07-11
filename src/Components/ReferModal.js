@@ -43,7 +43,7 @@ const ReferModal = ({handleClose, open}) => {
         console.log('Referral submitted successfully:', response);
 
       } catch (error) {
-        window.alert('You already referred this person ')
+        
         console.error('Error submitting referral:', error);
       }
     },
