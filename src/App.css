@@ -1,0 +1,264 @@
+.App{
+    background-color: var(--background-white);
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    justify-content: center;
+    height: 1.75rem;
+    font-size: .9rem;
+    background-color: var(--royal-blue-light);
+    align-items: center;
+    padding: .5rem;
+}
+
+.banner a {
+    text-decoration: none;
+    color: var(--royal-blue);
+    font-weight: 500;
+}
+
+header{
+    box-sizing: border-box;
+    height: 4.94rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.63rem 12rem;
+}
+
+header .logo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+}
+header .logo-section Button{
+    font-size: .7rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+  
+}
+
+nav div a{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* REFER SECTION STYLING */
+
+.refer-card {
+    display: flex;
+    width: 70%;
+    height: 492px;
+    margin: 2rem auto;
+    overflow: hidden;
+    justify-content: center;
+    background-color: var(--container-blue-light);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.refer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    margin: 3rem 1rem;
+    width: 45%;
+    padding: 1.5rem;
+}
+
+.refer-text h1{
+    font-size: 5rem;
+    font-weight: 500;
+    font-style: normal;
+    color: #1A202C;
+    
+}
+
+.refer-img{
+    width: 55%;
+}
+
+.refer-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Refer Process Styling */
+
+.refer-process-card {
+    background-color: var(--container-blue-light);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.refer-process-img {
+    position: relative;
+    
+}
+
+.img-container  {
+   margin-left: 13rem;
+    width: 70%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+
+
+.refer-stage-1 {
+    position: absolute;
+    top: 125px;
+    left: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    font-size: 11px;
+}
+.refer-stage-2 {
+    position: absolute;
+    top: 125px;
+    left: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    font-size: 11px;
+}
+.refer-stage-3 {
+    position: absolute;
+    top: 125px;
+    left: 885px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    font-size: 11px;
+}
+
+
+/* Referal Benefits section Styling */
+
+.refer-benefits {
+    margin: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.data{
+    display: flex;
+    gap: 2rem;
+}
+
+
+/* FAQs Section Styling */
+
+.faqs{
+    margin: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-wrapper{
+    display: flex;
+    padding: 3.5rem 10rem;
+    gap: 4.5rem;
+}
+
+.faq-right{
+    margin-top: 1.2rem;
+}
+
+.faq-right h6 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 1.1rem;
+    color: var(--royal-blue);
+}
+
+.faq-right p{
+    font-size: 12px;
+    margin-left: 8px;
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* Support Section Styling */
+
+.support{
+    margin: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: #1A73E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    width: 70%;
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+}
+
+.headset-img img {
+    width: 55px;
+}
+
+.support-text {
+    color: white;
+    margin-right: 15rem;
+} 
+
+.support-text h4{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.support-text p{
+    font-size: 10px;
+}
+
+
+/* Footer Section Styling  */
+
+.footer{
+    background-color: #282828;
+    padding: 2rem 14rem;
+    display: flex;
+    justify-content: space-between;
+}
