@@ -44,6 +44,7 @@ const ReferModal = ({handleClose, open}) => {
 
       } catch (error) {
         window.alert('You already referred this person ')
+        console.error('Error submitting referral:', error);
       }
     },
   });
