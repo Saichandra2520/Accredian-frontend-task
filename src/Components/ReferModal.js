@@ -18,7 +18,7 @@ const validationSchema = Yup.object({
 
 const ReferModal = ({handleClose, open}) => {
 
-  const API_URL = API_URL;
+  const API_URL = 'https://accredian-backend-task-sxsl.onrender.com/api';
   const submitReferral = async (referralData) => {
     try {
       const response = await axios.post(`${API_URL}/referrals`, referralData);
